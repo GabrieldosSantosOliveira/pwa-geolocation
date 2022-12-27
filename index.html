@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Document</title>
+
+    <meta name="theme-color" content="white" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="icon" href="img/pwa-iicon-256.png" />
+    <meta
+      name="apple-mobile-web-app-capable"
+      content="yes"
+    />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black"
+    />
+    <meta name="apple-mobile-web-app-title" content="PWA" />
+    <link rel="icon" href="img/pwa-iicon-256.png" />
+  </head>
+  <body>
+    <section class="container">
+      <header class="cabecalho">
+        <h1 class="titulo">PWA - Geolocation</h1>
+      </header>
+      <div class="conteudo">
+        <header class="cabecalhoConteudo">
+          <h2 class="titulo-conteudo">Geolocation</h2>
+        </header>
+        <div class="conteudoLocalizacao">
+          <p>Latitude: <span id="latitude">0.0</span></p>
+          <p>Longitude: <span id="longitude">0.0</span></p>
+          <div>
+            <button class="botao" id="localizacao">
+              Capturar Localização
+            </button>
+          </div>
+        </div>
+      </div>
+      <iframe
+        src="https://maps.google.com/maps?q=10.305385,77.923029&hl=es;z=14&amp;output=embed"
+        id="mapa-google"
+      ></iframe>
+
+      <footer class="rodape">
+        Progressive Web Aplication -Geolocation
+      </footer>
+    </section>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "name": "pwa-geolocation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "serve": "serve ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrieldosSantosOliveira/pwa-geolocation.git"
+  },
+  "keywords": [],
+  "author": "Gabriel dos Santos Oliveira <gabrielsantosoliveira951@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GabrieldosSantosOliveira/pwa-geolocation/issues"
+  },
+  "homepage": "https://github.com/GabrieldosSantosOliveira/pwa-geolocation#readme",
+  "dependencies": {
+    "serve": "^14.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.27.0"
+  }
+}
